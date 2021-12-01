@@ -3,7 +3,7 @@ A openGL Engine I'm making to make my own games and learn openGL
 All the libraries `glfw3.lib` `opengl32.lib` are to be added
 Also include the `glad.c` file in your source files folder
 
-# Hello Sqaure (No Triangle)
+<h2>Hello Sqaure</h2>
 Here's a sqaure that I created. 
 Color of background: <b>0.1f, 0.1f, 0.12f, 1.0f</b>, 
 Color of Square: <b>0.9f, 0.1f, 0.2f, 1.0f</b>
