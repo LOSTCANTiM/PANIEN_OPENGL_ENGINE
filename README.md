@@ -8,4 +8,4 @@ A simple blank window with openGL context ive been able to make so far
 
 <h4>Hello Sqaure (No Triangle)</h4>
 Here's a sqaure that I created
-<img src="https://cdn.discordapp.com/attachments/890224882086985728/915594323419086908/unknown.png" alt="hello-quare"></img>
+<img style="width: 50%;" src="https://cdn.discordapp.com/attachments/890224882086985728/915594323419086908/unknown.png" alt="hello-quare"></img>
