@@ -1,7 +1,7 @@
 # PaNiON OpenGL 
 A openGL Engine I'm making to make my own games and learn openGL
 All the libraries `glfw3.lib` `opengl32.lib` are to be added
-Also include the `glad.c` file in your source files folder
+Also include the `glad.c` `stb_image.h` file in your source files folder
 
 <h2>Hello Sqaure</h2>
 Here's a sqaure that I created. 
