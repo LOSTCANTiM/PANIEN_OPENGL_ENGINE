@@ -14,7 +14,8 @@ Color of Square: <b>0.9f, 0.1f, 0.2f, 1.0f</b>
 Here's a 3D Fully textured cube
 and here are it's vertices and indices with textCords:
 
-```GLfloat vertices[] = {
+```c++
+GLfloat vertices[] = {
 		0.5f, 0.5f, 0.5f,			1.0f, 1.0f,
 		-0.5f, 0.5f, 0.5f,			0.0f, 1.0f,
 		-0.5f, -0.5f, 0.5f,			0.0f, 0.0f,
@@ -66,4 +67,5 @@ and here are it's vertices and indices with textCords:
 		22, 23, 20
 	};
 ```
-OutPut: <img style="width: 30%;" src="https://cdn.discordapp.com/attachments/890224882086985728/915831022661304360/unknown.png">
+OutPut:
+<img style="width: 30%;" src="https://cdn.discordapp.com/attachments/890224882086985728/915831022661304360/unknown.png">
