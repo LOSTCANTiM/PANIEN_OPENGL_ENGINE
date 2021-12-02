@@ -67,5 +67,5 @@ GLfloat vertices[] = {
 		22, 23, 20
 	};
 ```
-OutPut:
+OutPut: <br>
 <img style="width: 30%;" src="https://cdn.discordapp.com/attachments/890224882086985728/915831022661304360/unknown.png">
