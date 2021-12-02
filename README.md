@@ -8,3 +8,62 @@ Here's a sqaure that I created.
 Color of background: <b>0.1f, 0.1f, 0.12f, 1.0f</b>, 
 Color of Square: <b>0.9f, 0.1f, 0.2f, 1.0f</b>
 <img style="width: 40%;" src="https://cdn.discordapp.com/attachments/890224882086985728/915594323419086908/unknown.png" alt="hello-quare"></img>
+
+
+<h2>3D Rotating CUBE!</h2>
+Here's a 3D Fully textured cube
+and here are it's vertices and indices with textCords:
+```c++
+	GLfloat vertices[] = {
+		0.5f, 0.5f, 0.5f,			1.0f, 1.0f,
+		-0.5f, 0.5f, 0.5f,			0.0f, 1.0f,
+		-0.5f, -0.5f, 0.5f,			0.0f, 0.0f,
+		0.5f, -0.5f, 0.5f,			1.0f, 0.0f,			//front face
+
+		-0.5f, 0.5f, 0.5f,			0.0f, 0.0f,
+		0.5f, 0.5f, 0.5f,			1.0f, 0.0f,
+		0.5f, 0.5f, -0.5f,			1.0f, 1.0f,
+		-0.5f, 0.5f, -0.5f,			0.0f, 1.0f,			//top face
+
+		0.5f, 0.5f, -0.5f,			1.0f, 1.0f,
+		-0.5f, 0.5f, -0.5f,			0.0f, 1.0f,
+		-0.5f, -0.5f, -0.5f,		0.0f, 0.0f,
+		0.5f, -0.5f, -0.5f,			1.0f, 0.0f,			//back face
+
+		-0.5f, -0.5f, 0.5f,			0.0f, 0.0f,
+		-0.5f, -0.5f, -0.5f,		0.0f, 1.0f,
+		0.5f, -0.5f, -0.5f,			1.0f, 1.0f,
+		0.5f, -0.5f, 0.5f,			1.0f, 0.0f,			//bottom face	
+
+		0.5f, -0.5f, 0.5f,			0.0f, 0.0f,
+		0.5f, -0.5f, -0.5f,			1.0f, 0.0f,
+		0.5f, 0.5f, -0.5f,			1.0f, 1.0f,
+		0.5f, 0.5f, 0.5f,			0.0f, 1.0f,			//right face
+
+		-0.5f, -0.5f, 0.5f,			0.0f, 0.0f,
+		-0.5f, -0.5f, -0.5f,		1.0f, 0.0f,
+		-0.5f, 0.5f, -0.5f,			1.0f, 1.0f,
+		-0.5f, 0.5f, 0.5f,			0.0f, 1.0f			//left face
+	};
+
+	GLuint indices[] = {
+		0, 1, 2,
+		2, 3, 0,
+
+		4, 5, 6,
+		6, 7, 4,
+
+		8, 9, 10,
+		10, 11, 8,
+
+		12, 13, 14,
+		14, 15, 12,
+
+		16, 17, 18,
+		18, 19, 16,
+
+		20, 21, 22,
+		22, 23, 20
+	};
+```
+OutPut: <img src="https://cdn.discordapp.com/attachments/890224882086985728/915831022661304360/unknown.png">
