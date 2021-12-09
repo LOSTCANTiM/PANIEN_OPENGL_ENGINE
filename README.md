@@ -69,3 +69,10 @@ unsigned int indices[] = {
 ```
 OutPut: <br>
 <img style="width: 30%;" src="https://cdn.discordapp.com/attachments/890224882086985728/915831022661304360/unknown.png">
+
+<hr>
+<h2>Using VSCODE and GCC Compiler</h2>
+first of all download the GLFW x32 pre compiled binaries and add the `glfw3.dll` to your `build` folder. And also add `libglfw3dll.a` to your `libs` folder, now include `GLFW, glad` add them in your include folder.
+
+now to compile enter the following command:
+`g++ -IInclude -LLibs .\source.cpp -o Build\Opengl.exe -lopengl32 -lgfw3dll`
